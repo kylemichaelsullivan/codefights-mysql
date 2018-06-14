@@ -1,0 +1,9 @@
+// https://codefights.com/arcade/db/welcome-to-the-table/J8JfCzFnr4cPMQgZ6
+
+/*Please add ; after each select statement*/
+CREATE PROCEDURE projectsTeam()
+BEGIN
+    SELECT DISTINCT name
+    FROM projectLog
+    ORDER BY name;
+END
