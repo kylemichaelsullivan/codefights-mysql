@@ -7,7 +7,7 @@ BEGIN
     FROM full_year
     WHERE newspaper LIKE "%Daily%"
     UNION
-	  SELECT DISTINCT subscriber
+    SELECT DISTINCT subscriber
     FROM half_year
     WHERE newspaper LIKE "%Daily%"
     ORDER BY subscriber;    
