@@ -5,8 +5,8 @@ CREATE PROCEDURE mostExpensive()
 BEGIN
     SELECT name
     FROM(
-        SELECT id,name,price,quantity,(price*quantity) AS res 
+        SELECT id, name, price, quantity, (price*quantity) AS res 
         FROM Products 
-        ORDER BY res DESC,name ASC LIMIT 1
+        ORDER BY res DESC, name ASC LIMIT 1
     )r;
 END
