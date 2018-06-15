@@ -1,4 +1,4 @@
-// https://codefights.com/arcade/db/would-you-like-the-second-meal/TfCxoCqHXShx7Hhzt
+/* https://codefights.com/arcade/db/would-you-like-the-second-meal/TfCxoCqHXShx7Hhzt */
 
 /*Please add ; after each select statement*/
 CREATE PROCEDURE expressionsVerification()
