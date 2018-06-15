@@ -1,4 +1,4 @@
-// https://codefights.com/arcade/db/always-leave-table-in-order/mcKKnmKK9xEWaFnqP
+/* https://codefights.com/arcade/db/always-leave-table-in-order/mcKKnmKK9xEWaFnqP */
 
 /*Please add ; after each select statement*/
 CREATE PROCEDURE mostExpensive()
