@@ -4,13 +4,13 @@
 CREATE PROCEDURE gradeDistribution()
 BEGIN
     SELECT s.name AS Name, s.ID AS ID
-    FROM (
+    FROM(
         SELECT name, ID,
         (Midterm1*25/100)+(Midterm2*25/100)+(Final*50/100) AS option_1,
         (Midterm1*50/100)+(Midterm2*50/100) AS option_2,
         Final AS option_3
         FROM Grades
-    ) s
+    )s
     WHERE s.option_3>s.option_1 AND s.option_3>s.option_2
     ORDER BY LEFT(name,3) ASC, ID ASC;
 END
