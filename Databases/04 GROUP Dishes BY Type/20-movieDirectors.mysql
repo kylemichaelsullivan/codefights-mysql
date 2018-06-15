@@ -1,0 +1,15 @@
+/* https://codefights.com/arcade/db/group-dishes-by-type/PPNoC7RpXJPGQcqi2 */
+
+/*Please add ; after each select statement*/
+CREATE PROCEDURE movieDirectors()
+BEGIN
+    SELECT DISTINCT d.director
+    FROM(
+        SELECT director, SUM(oscars) AS oscars
+        FROM moviesInfo
+        WHERE year>2000
+        GROUP BY director
+    )d
+    WHERE d.oscars>2
+    ORDER BY d.director;
+END
