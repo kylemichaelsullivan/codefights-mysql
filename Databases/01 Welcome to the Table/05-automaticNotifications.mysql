@@ -1,4 +1,4 @@
-// https://codefights.com/arcade/db/welcome-to-the-table/kaxWej78qgdGHy8mr
+/* https://codefights.com/arcade/db/welcome-to-the-table/kaxWej78qgdGHy8mr */
 
 CREATE PROCEDURE automaticNotifications()
     SELECT email
