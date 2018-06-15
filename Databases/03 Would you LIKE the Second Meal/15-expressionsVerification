@@ -3,15 +3,15 @@
 /*Please add ; after each select statement*/
 CREATE PROCEDURE expressionsVerification()
 BEGIN
-	SELECT v.id, v.a, v.b, v.operation, v.c
+    SELECT v.id, v.a, v.b, v.operation, v.c
     FROM(
         SELECT id, a, b, operation, c,
         CASE
             WHEN operation="+" THEN a+b
-            when operation="-" THEN a-b
-            when operation="/" THEN a/b
-            when operation="*" THEN a*b END
-        AS test
+            WHEN operation="-" THEN a-b
+            WHEN operation="/" THEN a/b
+            WHEN operation="*" THEN a*b
+	END AS test
         FROM expressions
     )v
     WHERE v.test=v.c
