@@ -1,4 +1,4 @@
-// https://codefights.com/arcade/db/welcome-to-the-table/6eMusSHbdjavds7Cq
+/* https://codefights.com/arcade/db/welcome-to-the-table/6eMusSHbdjavds7Cq */
 
 /*Please add ; after each select statement*/
 CREATE PROCEDURE monthlyScholarships()
