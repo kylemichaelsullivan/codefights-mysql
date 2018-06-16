@@ -1,0 +1,11 @@
+/* https://codefights.com/arcade/db/time-for-tricks/kJQWxwkjvTqhAYa9h */
+
+DROP PROCEDURE IF EXISTS legsCount;
+CREATE PROCEDURE legsCount()
+    SELECT SUM(CASE
+        WHEN type="human" THEN 2
+        WHEN type="cat" OR type="dog" THEN 4
+        ELSE 0
+    END) as summary_legs
+    FROM creatures
+    ORDER BY id;
