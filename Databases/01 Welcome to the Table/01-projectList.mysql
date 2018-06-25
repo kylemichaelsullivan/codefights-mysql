@@ -1,6 +1,5 @@
 /* https://codefights.com/arcade/db/welcome-to-the-table/RXErLMFkXFkM4MpYY */
 
-/*Please add ; after each select statement*/
 CREATE PROCEDURE projectList()
 BEGIN
     SELECT project_name, team_lead, income
