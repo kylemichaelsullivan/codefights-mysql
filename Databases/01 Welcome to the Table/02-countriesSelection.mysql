@@ -1,6 +1,5 @@
 /* https://codefights.com/arcade/db/welcome-to-the-table/jLeSZGMvaEhSJnEsS */
 
-/*Please add ; after each select statement*/
 CREATE PROCEDURE countriesSelection()
 BEGIN
     SELECT *
