@@ -1,6 +1,5 @@
 /* https://codefights.com/arcade/db/would-you-like-the-second-meal/TfCxoCqHXShx7Hhzt */
 
-/*Please add ; after each select statement*/
 CREATE PROCEDURE expressionsVerification()
 BEGIN
     SELECT v.id, v.a, v.b, v.operation, v.c
