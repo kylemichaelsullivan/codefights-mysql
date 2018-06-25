@@ -1,6 +1,5 @@
 /* https://codefights.com/arcade/db/specialties/GvJFyTbHdFqWtXTxc */
 
-/*Please add ; after each select statement*/
 CREATE PROCEDURE booksCatalogs()
 BEGIN
     SELECT SUBSTRING_INDEX(EXTRACTVALUE(
