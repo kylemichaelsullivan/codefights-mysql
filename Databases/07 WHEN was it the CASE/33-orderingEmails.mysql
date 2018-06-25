@@ -1,6 +1,5 @@
 /* https://codefights.com/arcade/db/when-was-it-the-case/KbjWnZy3cpPJxj2st */
 
-/*Please add ; after each select statement*/
 CREATE PROCEDURE orderingEmails()
 BEGIN
     SELECT e.id, e.email_title,
