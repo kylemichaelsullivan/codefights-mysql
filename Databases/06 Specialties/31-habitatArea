@@ -6,5 +6,6 @@ BEGIN
     SET @g:=(SELECT CONCAT("MULTIPOINT(",
         GROUP_CONCAT(x," ",y SEPARATOR ","),")")
     FROM places);
-    SELECT ST_AREA(ST_ConvexHull(ST_GeomFromText(@g))) AS area;
+    SELECT ST_AREA(ST_ConvexHull(ST_GeomFromText(@g)))
+    AS area;
 END
