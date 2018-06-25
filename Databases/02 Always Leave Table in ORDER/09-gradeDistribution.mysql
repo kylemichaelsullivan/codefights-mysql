@@ -1,6 +1,5 @@
 /* https://codefights.com/arcade/db/always-leave-table-in-order/jxvpRwWSTtmQne5XN */
 
-/*Please add ; after each select statement*/
 CREATE PROCEDURE gradeDistribution()
 BEGIN
     SELECT s.name AS Name, s.ID AS ID
