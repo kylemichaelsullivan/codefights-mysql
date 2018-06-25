@@ -1,6 +1,5 @@
 /* https://codefights.com/arcade/db/when-was-it-the-case/QGQGJF96JDN9bgprX */
 
-/*Please add ; after each select statement*/
 CREATE PROCEDURE orderOfSuccession()
 BEGIN
     SELECT
