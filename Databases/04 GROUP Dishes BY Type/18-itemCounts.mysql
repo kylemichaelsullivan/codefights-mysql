@@ -1,6 +1,5 @@
 /* https://codefights.com/arcade/db/group-dishes-by-type/fmKsqx7Aafhh6wqmq */
 
-/*Please add ; after each select statement*/
 CREATE PROCEDURE itemCounts()
 BEGIN
     SELECT item_name, item_type, COUNT(item_name) AS item_count
