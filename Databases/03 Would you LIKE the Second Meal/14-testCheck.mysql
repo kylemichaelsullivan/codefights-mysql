@@ -1,6 +1,5 @@
 /* https://codefights.com/arcade/db/would-you-like-the-second-meal/NEmMmhyncr4X4ZHbh */
 
-/*Please add ; after each select statement*/
 CREATE PROCEDURE securityBreach()
 BEGIN
     SELECT first_name, second_name, attribute
