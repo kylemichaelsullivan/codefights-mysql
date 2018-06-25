@@ -1,6 +1,5 @@
 /* https://codefights.com/arcade/db/always-leave-table-in-order/WJ2bsam6YCAqgxFS9 */
 
-/*Please add ; after each select statement*/
 CREATE PROCEDURE contestLeaderboard()
 BEGIN
     SELECT name
