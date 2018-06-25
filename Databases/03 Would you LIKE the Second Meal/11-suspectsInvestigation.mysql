@@ -1,6 +1,5 @@
 /* https://codefights.com/arcade/db/would-you-like-the-second-meal/L3FekSnxCGMpK34bd */
 
-/*Please add ; after each select statement*/
 CREATE PROCEDURE suspectsInvestigation()
 BEGIN
     SELECT id, name, surname
