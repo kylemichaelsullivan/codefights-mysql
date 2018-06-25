@@ -1,6 +1,5 @@
 /* https://codefights.com/arcade/db/specialties/qeMwFWTCDJeReCeZM */
 
-/*Please add ; after each select statement*/
 CREATE PROCEDURE habitatArea()
 BEGIN
     SET @a:=(SELECT CONCAT("MULTIPOINT(",
