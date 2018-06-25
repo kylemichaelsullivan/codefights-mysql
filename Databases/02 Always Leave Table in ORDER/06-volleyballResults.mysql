@@ -1,6 +1,5 @@
 /* https://codefights.com/arcade/db/always-leave-table-in-order/r34RHt96RkDvPX6gz */
 
-/*Please add ; after each select statement*/
 CREATE PROCEDURE volleyballResults()
 BEGIN
     SELECT *
