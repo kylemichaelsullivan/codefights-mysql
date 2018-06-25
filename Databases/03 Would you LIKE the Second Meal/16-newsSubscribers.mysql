@@ -1,6 +1,5 @@
 /* https://codefights.com/arcade/db/would-you-like-the-second-meal/qLGqhPwQtsrKRzEgv */
 
-/*Please add ; after each select statement*/
 CREATE PROCEDURE newsSubscribers()
 BEGIN
     SELECT DISTINCT subscriber
