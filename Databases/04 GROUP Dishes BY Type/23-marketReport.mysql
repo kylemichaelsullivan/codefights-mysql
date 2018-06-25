@@ -1,6 +1,5 @@
 /* https://codefights.com/arcade/db/group-dishes-by-type/47JJ5SEJHSdLusQeQ */
 
-/*Please add ; after each select statement*/
 CREATE PROCEDURE marketReport()
 BEGIN
     SELECT IFNULL(country, "Total:") AS country,
