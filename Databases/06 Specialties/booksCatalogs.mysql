@@ -1,0 +1,11 @@
+/* https://codefights.com/arcade/db/specialties/GvJFyTbHdFqWtXTxc */
+
+/*Please add ; after each select statement*/
+CREATE PROCEDURE booksCatalogs()
+BEGIN
+    SELECT SUBSTRING_INDEX(EXTRACTVALUE(
+        xml_doc,"//catalog//book//author")," ",2)
+    AS author
+    FROM catalogs
+    ORDER BY author;
+END
