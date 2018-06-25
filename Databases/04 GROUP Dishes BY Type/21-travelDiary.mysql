@@ -2,7 +2,7 @@
 
 CREATE PROCEDURE travelDiary()
 BEGIN
-	SELECT GROUP_CONCAT(
+    SELECT GROUP_CONCAT(
         DISTINCT country
         ORDER BY country
         SEPARATOR ";"
